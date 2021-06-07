@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdqfMLv3TxEmHmzIVnjIUSwAAAAACAAAAAAAQZgAAAAEAACAAAAAeqiOZ83dkzcowVcK+EDhDT7EJ6+dbyEq0iB7XNwtdFAAAAAAOgAAAAAIAACAAAACwFhtOeVE50wDuYqBrXj3K5CzonfU+xTae7dXQ0Ve7+yAAAABkK1/DrhAGxnBFX23pqfVetqZhUGmXO3cPowWPyYpoFEAAAADObN/DVn+YEne2F8YqoCSc32/pKBxjyNXwm/p6CLs5jFwIDMwKS34+qTWf7j21ffl5XR3VPoFGD6DPzd6xGz2G</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.site4now.net/spacing</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="RstateAPI.Data.StoreContext">
+      <Value>Server=localhost%3bPort=3306%3bDatabase=rstate%3buser=root%3bpassword=%40%40Nodejs8%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

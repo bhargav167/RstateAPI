@@ -1,0 +1,1528 @@
+.boxSize {
+  box-sizing: border-box
+}
+
+.boxSize * {
+  box-sizing: border-box
+}
+
+button,
+input,
+textarea {
+  -webkit-appearance: none;
+  border-radius: 0
+}
+
+.textC {
+  text-align: center
+}
+
+.nn_f10 {
+  font-size: 10px
+}
+
+.nn_f11 {
+  font-size: 11px
+}
+
+.nn_f12 {
+  font-size: 12px
+}
+
+.nn_f13 {
+  font-size: 13px
+}
+
+.nn_f14 {
+  font-size: 14px
+}
+
+.nn_f16 {
+  font-size: 16px
+}
+
+.nn_f18 {
+  font-size: 18px
+}
+
+.nn_f20 {
+  font-size: 20px
+}
+
+.nn_f24 {
+  font-size: 24px
+}
+
+.nn_hide {
+  display: none
+}
+
+.nn_show {
+  display: block
+}
+
+.nn_rf {
+  float: right
+}
+
+.nn_lf {
+  float: left
+}
+
+.nn_posAbs {
+  position: absolute
+}
+
+.nn_posRel {
+  position: relative
+}
+
+.nn_cLightGray {
+  color: #999
+}
+
+.nn_cGray {
+  color: #666
+}
+
+.nn_cDarkGray {
+  color: #333
+}
+
+.nn_cBlack {
+  color: #000
+}
+
+.nn_cGreen {
+  color: #59CDB5
+}
+
+.nn_cDarkGreen {
+  color: #2ecc71
+}
+
+.nn_clearfix {
+  clear: both
+}
+
+.nn_sb,
+b {
+  font-weight: 600
+}
+
+.nn_fwn {
+  font-weight: 400
+}
+
+.spacer10 {
+  width: 100%;
+  height: 10px
+}
+
+.spacer20 {
+  width: 100%;
+  height: 20px
+}
+
+.spacer45 {
+  width: 100%;
+  height: 45px
+}
+
+.blueSubmit,
+.btn.blue,
+.btn.white {
+  background: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #3498db;
+  cursor: pointer;
+  -webkit-appearance: button
+}
+
+.disabledBtn {
+  pointer-events: none;
+  background: #CCD1D9;
+  color: #666;
+  border: 1px solid #CCD1D9;
+  padding: 10px;
+  -webkit-appearance: button;
+  min-width: 120px;
+  text-align: center
+}
+
+.btn.white {
+  background: #fff;
+  color: #3498db;
+  border: 1px solid #3498db
+}
+
+.btn.blue {
+  min-width: 120px;
+  text-align: center
+}
+
+.blueSubmit:hover,
+.btn.blue:focus,
+.btn.blue:hover {
+  background: #4ba7e4
+}
+
+.separatorBorder,
+.verBorder:after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  background-color: #ccc;
+  min-height: 15px;
+  height: 80%;
+  margin: auto 5px;
+  position: relative;
+  vertical-align: middle
+}
+
+.selectDropdown {
+  display: inline-block;
+  position: relative
+}
+
+.selectDropdown select {
+  color: #666;
+  background: 0 0;
+  min-width: 100px;
+  padding: 10px;
+  padding-right: 25px;
+  position: relative;
+  z-index: 1
+}
+
+.selectDropdown:after {
+  width: 6px;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  height: 6px;
+  border-width: 1px 1px 0 0;
+  content: '';
+  border-style: solid;
+  position: absolute;
+  margin: auto;
+  color: #666;
+  transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  display: block
+}
+
+.alignRight {
+  text-align: right
+}
+
+.hm10 {
+  margin: 0 10px
+}
+
+.hm5 {
+  margin: 0 5px
+}
+
+.nn_cBlue {
+  color: #3498db
+}
+
+.nn_wBold {
+  font-weight: 700
+}
+
+.nn_wsBold {
+  font-weight: 600
+}
+
+.nn_vMid {
+  vertical-align: middle
+}
+
+.cPin {
+  cursor: pointer
+}
+
+.ellips {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+.nn_InfoTipLyr {
+  background: #4a4a4a;
+  color: #fff;
+  width: 206px;
+  border-radius: 5px;
+  position: absolute;
+  top: 25px;
+  z-index: 2
+}
+
+.nn_InfoTipLyr div {
+  padding: 10px;
+  line-height: 18px;
+  white-space: normal
+}
+
+.nn_InfoTipLyr:after {
+  display: block;
+  border-width: 10px;
+  border-color: transparent transparent #4a4a4a transparent;
+  position: absolute;
+  top: -18px;
+  left: 20px;
+  z-index: 1;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid
+}
+
+.w270 {
+  width: 270px
+}
+
+.w230 {
+  max-width: 230px
+}
+
+.w135 {
+  max-width: 135px
+}
+
+.wd100 {
+  width: 100%
+}
+
+.dInBlk {
+  display: inline-block
+}
+
+.margin-1 {
+  margin-top: -1px
+}
+
+.mt0 {
+  margin-top: 0 !important
+}
+
+.greenBarBox {
+  background: #3db79e;
+  padding: 8px 20px;
+  margin: 10px 0
+}
+
+.greenBarBox div {
+  font-size: 12px;
+  color: #fff;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3)
+}
+
+.greenBarBox div span {
+  font-weight: 700
+}
+
+.greenBarBox a {
+  border: 1px #fff solid;
+  padding: 5px;
+  width: 10%;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: middle;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3)
+}
+
+.wrapTempClass {
+  width: 940px;
+  margin: auto
+}
+
+.tuppleContent * {
+  box-sizing: border-box
+}
+
+.tuppleContent {
+  padding: 14px 17px !important;
+  line-height: normal !important;
+  box-sizing: border-box;
+  background: #fff;
+  margin-bottom: 10px
+}
+
+.boostRow .h2 a {
+  font-size: 14px;
+  color: #333 !important;
+  letter-spacing: 0;
+  line-height: 22px;
+  font-weight: 600
+}
+
+.boostRow .sub-wrap {
+  display: inline-block
+}
+
+.boostRow .sub-wrap .light-text {
+  font-size: 12px;
+  color: #999;
+  letter-spacing: 0;
+  margin-right: 4px
+}
+
+.boostRow .sub-wrap .light-text,
+.boostRow .sub-wrap .main-text {
+  display: inline-block
+}
+
+.boostRow .sub-wrap .main-text {
+  font-size: 12px;
+  color: #333;
+  letter-spacing: 0
+}
+
+.extra-link a {
+  font-size: 12px;
+  color: #333 !important;
+  letter-spacing: 0;
+  margin-top: 6px;
+  display: inline-block;
+  text-decoration: underline
+}
+
+.extra-link {
+  display: inline-block
+}
+
+.boostChild {
+  width: 49.5%;
+  display: inline-block;
+  vertical-align: top
+}
+
+.tuppleContent>div.checkboxAll {
+  width: 2%;
+  margin-right: 8px
+}
+
+.tuppleContent>div:nth-child(2) {
+  width: 97%
+}
+
+.nn-col-4,
+.nn-col-8 {
+  display: inline-block;
+  float: left
+}
+
+.nn-col-8 {
+  width: 66.66666667%
+}
+
+.nn-col-4 {
+  width: 33.33333333%
+}
+
+.nn-col-8 .boostChild {
+  margin-top: 19px
+}
+
+.nn-col-4 .getSpace .light-text {
+  vertical-align: top
+}
+
+.nn-col-4 .boostChild.getSpace {
+  padding: 0
+}
+
+.nn-col-4 .boostChild {
+  width: 100%
+}
+
+.tuppleContent input[type=checkbox],
+.tuppleContent input[type=radio] {
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 16px;
+  position: relative;
+  width: 16px;
+  -webkit-appearance: none;
+  border: 1px solid #ccd1d9;
+  margin-top: 5px
+}
+
+.tuppleContent input[type=checkbox] {
+  border-radius: 0
+}
+
+.boostRow {
+  margin-top: 2px;
+  font-size: 0;
+  float: left;
+  width: 100%;
+  display: inline-flex
+}
+
+.sub-wrap {
+  padding-right: 7px
+}
+
+.bold-font {
+  font-weight: 600
+}
+
+.boostPosition {
+  margin-left: 8px;
+  color: #3496D9 !important;
+  font-weight: 800
+}
+
+span.barComplete {
+  display: block;
+  width: 70px;
+  height: 7.7px;
+  background: #CCD1D9
+}
+
+span.barStatus {
+  display: block;
+  height: 7.7px;
+  background: #59CDB5
+}
+
+.boostRow .sub-wrap .barWrap {
+  margin-right: 8px
+}
+
+.boostRow .sub-wrap .productId {
+  font-size: 12px;
+  color: #333
+}
+
+.boostRow .sub-wrap .productStatus {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600
+}
+
+.boostRow .sub-wrap .greenStatus {
+  color: #45e158
+}
+
+.boostChild.getSpace {
+  margin-top: 34px;
+  padding-right: 20px
+}
+
+.CreditsWrap {
+  display: inline-block;
+  width: 90px;
+  vertical-align: -webkit-baseline-middle;
+  position: relative;
+  font-size: 0;
+  text-align: center;
+  top: -5px
+}
+
+.CreditsWrap span {
+  display: inline-block
+}
+
+.miniusIcon {
+  border: 1px solid #E6E9ED;
+  width: 22px;
+  height: 22px;
+  vertical-align: top;
+  font-size: 18px;
+  line-height: 22px;
+  float: left;
+  cursor: pointer;
+  color: #000
+}
+
+.Nwrap {
+  border: 1px solid #E6E9ED;
+  width: 40px;
+  height: 22px;
+  border-right: none;
+  border-left: none;
+  font-size: 12px;
+  line-height: 22px;
+  float: left
+}
+
+.Nwrap input {
+  width: 100%;
+  border: 0;
+  text-align: center;
+  vertical-align: top;
+  padding-bottom: 0
+}
+
+.sub-wrap:last-child {
+  padding-right: 0
+}
+
+.plusIcon {
+  border: 1px solid #E6E9ED;
+  width: 22px;
+  height: 22px;
+  vertical-align: top;
+  font-size: 17px;
+  line-height: 22px;
+  float: left;
+  cursor: pointer;
+  color: #000
+}
+
+span.creditText {
+  font-size: 9px;
+  color: #999
+}
+
+span.applyBoost {
+  font-size: 12px;
+  position: relative;
+  top: 3px;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  top: -1px;
+  color: #000;
+  margin-right: 10px
+}
+
+span.applyBoost.disable {
+  text-decoration: none;
+  cursor: initial;
+  pointer-events: none;
+  vertical-align: top;
+  color: grey;
+  margin-right: 10px
+}
+
+i.iIcon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 50%;
+  margin: 0 5px 0 0;
+  background-position: -643px -611px
+}
+
+.right-option {
+  display: block;
+  font-size: 12px;
+  text-align: right
+}
+
+.right-option .nnDropdwn {
+  position: relative;
+  margin-right: 10px
+}
+
+.right-option .nnDropdwn select {
+  -webkit-appearance: none;
+  background: 0 0;
+  border: 0;
+  color: #39c;
+  padding: 0 8px 0 0;
+  position: relative;
+  margin-top: -1px
+}
+
+.right-option .nnDropdwn select option {
+  padding: 15px;
+  border: 0
+}
+
+.right-option .nnDropdwn:after {
+  width: 5px;
+  right: 0;
+  top: -2px;
+  bottom: 0;
+  height: 5px;
+  border-width: 1px 1px 0 0;
+  content: '';
+  border-style: solid;
+  position: absolute;
+  margin: auto;
+  color: #39c;
+  transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  display: block
+}
+
+i.linkOpen {
+  display: inline-block;
+  background-position: -79px -44px;
+  margin-left: 3px;
+  position: relative;
+  top: 4px
+}
+
+.not-visible {
+  visibility: hidden
+}
+
+.wd55 {
+  width: 54.5%
+}
+
+.wd45 {
+  width: 44.5%
+}
+
+.assigned-subuser {
+  display: block;
+  float: right;
+  max-width: 120px;
+  white-space: nowrap;
+  margin-left: 3px;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+.blue-link {
+  color: #3496D9;
+  cursor: pointer
+}
+
+.assignName {
+  font-size: 11px;
+  color: #999
+}
+
+.nameDropdown {
+  font-size: 11px;
+  color: #3496D9;
+  margin-right: 5px
+}
+
+.opIcon {
+  display: inline-block;
+  margin-left: 12px;
+  position: relative;
+  top: 4px;
+  cursor: pointer;
+  width: 16px;
+  height: 16px
+}
+
+.editIcon {
+  background-position: 0 -43px
+}
+
+.deleteIcon {
+  background-position: -25px -43px
+}
+
+.blockIcon {
+  background-position: -52px -43px
+}
+
+.featured {
+  background: #9713B8;
+  color: #fff;
+  font-size: 11px;
+  padding: 1px 6px;
+  margin: 0 5px 0 2px
+}
+
+.listing-type {
+  background: orange;
+  white-space: nowrap;
+  color: #fff;
+  font-size: 11px;
+  padding: 1px 6px;
+  margin: 0 5px 0 2px
+}
+
+.rightIcon {
+  display: inline-block;
+  background-position: -229px -83px;
+  margin-left: 6px;
+  position: relative;
+  top: 4px
+}
+
+span.newNoti {
+  display: inline-block;
+  background: #4A90E2;
+  font-size: 10px;
+  color: #fff;
+  padding: 1px 5px;
+  margin-left: 6px
+}
+
+.border-left {
+  border-left: 1px solid #E6E9ED;
+  padding: 0 0 0 10px;
+  margin-top: 19px
+}
+
+.mt19 {
+  margin-top: 19px
+}
+
+.boostChild .separatorBorder {
+  vertical-align: bottom;
+  color: #333
+}
+
+.main-text.elipsis {
+  width: 36px;
+  vertical-align: top
+}
+
+.mt6 {
+  margin-top: 6px
+}
+
+.elipsis {
+  text-overflow: ellipsis;
+  width: 100%;
+  overflow: hidden
+}
+
+.extra-width {
+  width: 100%
+}
+
+.extra-link a.lessmargin {
+  margin-top: 0
+}
+
+.extra-link a.lessmargincopy {
+  margin-top: 1px
+}
+
+.nn-col-4 .getSpace .addMargin {
+  position: relative;
+  top: 1px
+}
+
+.boostRow .sub-wrap .main-text {
+  position: relative
+}
+
+.main-text .nnDropdwn select {
+  background: 0 0;
+  border: none;
+  -webkit-appearance: none;
+  padding-right: 15px
+}
+
+.main-text .nnDropdwn:after {
+  width: 5px;
+  right: 4px;
+  top: -2px;
+  bottom: 0;
+  height: 5px;
+  border-width: 1px 1px 0 0;
+  content: '';
+  border-style: solid;
+  position: absolute;
+  margin: auto;
+  color: #999;
+  transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  display: block
+}
+
+i.backIcon {
+  width: 20px;
+  height: 24px;
+  display: inline-block;
+  background-position: -69px -17px;
+  background-size: 450px;
+  vertical-align: middle
+}
+
+.backButton span {
+  display: inline-block;
+  vertical-align: middle
+}
+
+.backButton {
+  margin-bottom: 30px;
+  cursor: pointer
+}
+
+.nn_bgcolor {
+  background: #F9FAFC
+}
+
+.nn_subscrptn {
+  padding: 10px;
+  background-color: #fff;
+  width: 100%
+}
+
+.nn_subscrptn .nn_subListBox {
+  cursor: pointer;
+  position: relative;
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 23%;
+  margin: 1% 2% 1% 0
+}
+
+.nn_subscrptn .nn_subListBox .nn_subListBoxArea {
+  position: absolute;
+  right: 10px
+}
+
+.nn_subscrptn .nn_subListBox .nn_subListBoxArea .lengthFix {
+  right: 0;
+  left: 0;
+  width: 100%
+}
+
+.nn_subscrptn .nn_subListBox>div {
+  padding: 5px 10px
+}
+
+.nn_subscrptn .nn_subListBox>div:last-child {
+  border-top: 1px solid #ccc
+}
+
+.nn_subscrptn .nn_subListBox em {
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: 0;
+  top: 0;
+  border-style: solid;
+  border-width: 33px 33px 0 0;
+  border-color: #59CDB5 transparent transparent transparent;
+  display: none
+}
+
+.nn_subscrptn .nn_subListBox em:before {
+  content: "";
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  position: absolute;
+  height: 6px;
+  width: 15px;
+  transform: rotate(-45deg);
+  top: -28px;
+  left: 3px
+}
+
+.nn_subscrptn .subsBox {
+  height: 290px;
+  overflow: hidden;
+  overflow-y: auto
+}
+
+div.nn_subListBox:nth-child(4) {
+  margin-right: 0
+}
+
+.nn_subListBox.active {
+  border: 1px solid #59CDB5
+}
+
+.nn_subListBox.active:hover {
+  border: 1px solid #59CDB5;
+  box-shadow: none
+}
+
+.nn_subListBox:hover {
+  border: 1px solid #59CDB5;
+  box-shadow: 0 6px 6px rgba(170, 170, 170, .5)
+}
+
+.nn_subListBox.active .nn_subContnt div {
+  color: #59CDB5 !important
+}
+
+.nn_subListBox.active>div:last-child {
+  border-top: 1px solid #59CDB5
+}
+
+.nn_subListBox.active em {
+  display: block
+}
+
+.nn_subListBox.nn_error {
+  border: 1px solid #d70205;
+  cursor: default;
+  pointer-events: none
+}
+
+.nn_stepCount {
+  margin-top: 20px
+}
+
+.nn_subscrptn .btn.white {
+  margin-right: 10px
+}
+
+.nn_subscrptn .nn_btmDiv {
+  width: 95%;
+  bottom: 20px
+}
+
+.nn_subscrptn .btmMargin {
+  bottom: -45px
+}
+
+.nn_subscrptn .disabledBox {
+  opacity: .5;
+  pointer-events: none
+}
+
+table.nn_listFeedbck {
+  table-layout: fixed;
+  width: 60%;
+  line-height: 22px
+}
+
+table.nn_listFeedbck tr {
+  width: 100%
+}
+
+table.nn_listFeedbck.widt10 {
+  width: 100%
+}
+
+.nn_subTabWrap {
+  margin-top: 0;
+  overflow: hidden;
+  margin-bottom: 10px
+}
+
+div.nn_acctab {
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+  transition: .4s;
+  background-color: #59CDB5;
+  color: #fff;
+  padding: 10px 30px 10px 15px
+}
+
+.nn_acctabBlock {
+  background-color: #fff;
+  border: 1px solid #59CDB5;
+  margin-bottom: 10px;
+  position: relative
+}
+
+.nn_acctabBlock:last-child {
+  margin-bottom: 0
+}
+
+div.nn_acctab .arrwCrcl {
+  position: absolute;
+  top: 5px;
+  right: 1px;
+  vertical-align: middle
+}
+
+div.nn_acctab .arrwCrcl:before {
+  content: '';
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin: 7px 8px;
+  padding: 5px;
+  transition: .4s all ease
+}
+
+div.nn_acctab.on .arrwCrcl:before {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin: 7px 8px;
+  -webkit-transform: rotate(-135deg);
+  margin: 12px 8px
+}
+
+div.panel {
+  padding: 0 15px 15px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16)
+}
+
+div.panel p {
+  font-size: 10px;
+  font-weight: 600;
+  color: #333;
+  padding-left: 10px
+}
+
+div.panel .vsp {
+  position: absolute;
+  left: -10px;
+  height: 160px
+}
+
+.nn_subscrptn .nn_BstList.nn_subListBox {
+  width: 17%;
+  margin: 1% 1% 1% 0;
+  height: 60px
+}
+
+.nn_BstList.nn_subListBox .nn_subContnt {
+  padding: 12px
+}
+
+.nn_BstList.nn_subListBox.active .nn_subContnt div {
+  color: #333 !important
+}
+
+.nn_BstList.nn_subListBox>div:last-child {
+  border: 0
+}
+
+.nn_acrList {
+  display: inline-block;
+  text-align: left;
+  margin: 2% 2% 2% 0;
+  width: 23%
+}
+
+.nn_acrList:last-child {
+  margin: 2% 0 2% 0
+}
+
+.nn_acrList>div.nn_cGreen {
+  font-size: 25px
+}
+
+.nn_acrListInfo {
+  border-top: 1px solid #ccc;
+  padding: 15px 0 0;
+  line-height: 22px
+}
+
+.nn_crdtxt {
+  display: inline-block;
+  height: 60px;
+  margin: 1%;
+  width: 44%;
+  border-bottom: 1px solid #ccc;
+  position: relative
+}
+
+.nn_crdtxt>span {
+  position: absolute;
+  display: inline-block;
+  bottom: 5px;
+  width: 100%
+}
+
+.nn_crdtxt>span>em {
+  padding: 0 5px 0 0;
+  line-height: 18px;
+  font-style: normal
+}
+
+.nn_crdtxt>span input {
+  border: 0;
+  padding: 0 5px 5px 0;
+  display: inline-block;
+  width: 17%;
+  box-shadow: none
+}
+
+.nn_crdtxt>div {
+  position: absolute;
+  bottom: -25px;
+  padding-bottom: 0
+}
+
+.nn_crdDetails {
+  margin: 60px 0
+}
+
+.creditText {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px
+}
+
+.creditLink {
+  font-size: 14px;
+  display: block;
+  color: #3398db
+}
+
+.boostDone {
+  margin-top: 30px;
+  padding: 10px 20px;
+  position: relative;
+  background: #3498db;
+  color: #fff;
+  font-size: 14px;
+  right: 0;
+  display: inline-block
+}
+
+.nn_subscrptn a {
+  color: #3498db
+}
+
+.subsBoost {
+  background: #3498db;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 0;
+  border-left: 0;
+  transition: none;
+  border: 0;
+  text-align: center;
+  cursor: pointer
+}
+
+.subsCancel {
+  float: right;
+  color: #3498db;
+  font-size: 14px;
+  background: #fff;
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer
+}
+
+.error {
+  color: red;
+  padding-top: 5px
+}
+
+.ngdialog.ngdialog-theme-default.weekly-boost-ipad .ngdialog-content {
+  width: 660px;
+  padding-bottom: 1em
+}
+
+.ngdialog.ngdialog-theme-default.weekly-boost .ngdialog-content {
+  width: 855px;
+  padding-bottom: 1em
+}
+
+.ngdialog.ngdialog-theme-default.change-subs .ngdialog-content {
+  background-color: #fff;
+  width: 800px
+}
+
+.ngdialog.ngdialog-theme-default.change-subs-ipad .ngdialog-content {
+  background-color: #fff;
+  width: 800px
+}
+
+.ngdialog.ngdialog-theme-default.no-padding.weekly-boost .ngdialog-content {
+  width: 855px;
+  padding: 0 !important
+}
+
+.ngdialog.ngdialog-theme-default.no-padding.weekly-boost-ipad .ngdialog-content {
+  width: 660px;
+  padding: 0 !important
+}
+
+.minus-disabled {
+  pointer-events: none;
+  color: #d3d3d3 !important
+}
+
+.weeklyPlanWrap {
+  height: 456px;
+  width: 100%;
+  background: #fff;
+  padding: 19px 22px;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+.weeklyPadding {
+  padding: 19px 22px
+}
+
+.noPadding {
+  padding: 0
+}
+
+.wpTitle {
+  font-weight: 600
+}
+
+.wpSubContent {
+  margin-top: 23px
+}
+
+.wpSubContent span:first-child {
+  letter-spacing: 0;
+  line-height: 22px
+}
+
+.wpBottom button,
+.wpBottom div {
+  display: inline-block;
+  cursor: pointer
+}
+
+.wpSubContent span:nth-child(2) {
+  cursor: pointer
+}
+
+.dateTuple .addSubWrap span:hover {
+  color: #59CDB5
+}
+
+.nn_lspacing0 {
+  letter-spacing: 0
+}
+
+.wpBoostRow .sub-wrap {
+  display: inline-block
+}
+
+.wpBoostRow .sub-wrap .light-text {
+  margin-right: 4px
+}
+
+.wpBoostRow .sub-wrap .light-text,
+.wpBoostRow .sub-wrap .main-text {
+  display: inline-block
+}
+
+.wpBoostRow .sub-wrap .main-text {
+  font-size: 12px
+}
+
+.wpBottom button {
+  background: #3496D9;
+  border: none;
+  padding: 9px 36px;
+  font-size: 14px;
+  font-weight: 600
+}
+
+.dateTuple {
+  width: 80px;
+  text-align: center;
+  font-size: 12px
+}
+
+.dateTuple>div:last-child {
+  border: 1px solid #E6E9ED
+}
+
+.dateTuple .addSubWrap span {
+  cursor: pointer;
+  float: left;
+  width: 50%;
+  color: #000;
+  font-size: 18px
+}
+
+.dateTuple .addSubWrap span:first-child {
+  border-right: 1px solid #E6E9ED
+}
+
+.dateTuple .addSubWrap {
+  border-top: 1px solid #E6E9ED
+}
+
+.dateTuple input {
+  border: 0;
+  text-align: center;
+  padding: 0 5px
+}
+
+.autoSlideWrp {
+  width: 100%;
+  overflow: hidden;
+  position: relative
+}
+
+.autoSlideFlm {
+  white-space: nowrap;
+  position: relative;
+  transition: all .5s ease-in;
+  left: 0;
+  display: inline-block
+}
+
+.autoSlideFlm>div {
+  margin: 0 3px;
+  display: inline-block;
+  white-space: nowrap
+}
+
+.nxtArw,
+.prevArw {
+  width: 7%;
+  height: 100%;
+  background: rgba(0, 0, 0, .5);
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  text-align: center;
+  pointer-events: auto
+}
+
+.prevArw {
+  left: 0
+}
+
+.nxtArw {
+  right: 0
+}
+
+.active {
+  color: #39c !important;
+  pointer-events: auto
+}
+
+.prevArw.active i {
+  background-position: -180px -29px
+}
+
+.nxtArw.active i {
+  background-position: -204px -29px
+}
+
+.prevArw i {
+  background-position: -126px -29px
+}
+
+.nxtArw i {
+  background-position: -150px -29px
+}
+
+.slidericon {
+  display: block !important;
+  width: 28px !important;
+  height: 45px !important;
+  margin: auto !important
+}
+
+.arrowOutWrp {
+  position: relative
+}
+
+.arrowOutWrp .autoSlideWrp {
+  width: 80%;
+  margin: auto
+}
+
+.weeklyPlanWrap .na-text {
+  height: 55px;
+  padding-top: 10px
+}
+
+.weeklyPlanWrap .arrowOutWrp .autoSlideWrp {
+  width: 83%
+}
+
+.weeklyPlanWrap .autoSlideFlm>div {
+  margin: 5px 8px
+}
+
+.weeklyPlanWrap .nxtArw,
+.weeklyPlanWrap .prevArw {
+  color: #999;
+  background: 0 0
+}
+
+.weeklyPlanWrap .disbleTple,
+.weeklyPlanWrap .disbleTple * {
+  color: #999 !important;
+  pointer-events: none;
+  vertical-align: top
+}
+
+.weeklyPlanWrap .nxtArw .vcd,
+.weeklyPlanWrap .prevArw .vcd {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 86px
+}
+
+.nn_cLightBlue {
+  color: #3496D9
+}
+
+.nn_f24 {
+  font-size: 24px
+}
+
+.nn_cWhite {
+  color: #FFF
+}
+
+.nn_mb5 {
+  margin-bottom: 5px
+}
+
+@media (max-device-width:768px) {
+  .nn_subscrptn {
+    padding: 4px
+  }
+
+  .nn_crdtxt>div {
+    bottom: -42px
+  }
+
+  .nn_subListBox:hover {
+    box-shadow: none;
+    border: 1px solid #ccc
+  }
+}
+
+.animate-shadow {
+  animation: shadowThrob .9s infinite;
+  animation-direction: alternate;
+  -webkit-animation: shadowThrob .9s ease-out infinite;
+  -webkit-animation-direction: alternate
+}
+
+@keyframes shadowThrob {
+  from {
+    box-shadow: 0 3px 5px 2px rgba(180, 185, 190, .9)
+  }
+
+  to {
+    box-shadow: 0 3px 5px 2px rgba(180, 185, 190, .2)
+  }
+}
+
+@-webkit-keyframes shadowThrob {
+  from {
+    box-shadow: 0 3px 5px 2px rgba(180, 185, 190, .9)
+  }
+
+  to {
+    box-shadow: 0 3px 5px 2px rgba(180, 185, 190, .2)
+  }
+}
